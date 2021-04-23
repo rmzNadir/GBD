@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+
+
+<p>
+  <strong>Modelo:</strong>
+  <%= @plane.modelo %>
+</p>
+
+<p>
+  <strong>Capacidad:</strong>
+  <%= @plane.capacidad %>
+</p>
+
+<p>
+  <strong>Fabricante:</strong>
+  <%= @plane.fabricante %>
+</p>
+
+<%= link_to 'Edit', edit_plane_path(@plane) %> |
+<%= link_to 'Back', planes_path %>
